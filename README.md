@@ -1,2 +1,2 @@
 # rust-web-basic
-Basic Web Service i Rust
+Basic Web Service in Rust
