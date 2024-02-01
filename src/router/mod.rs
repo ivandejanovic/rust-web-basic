@@ -26,8 +26,6 @@ pub struct Pagination {
 }
 
 pub fn create_router() -> Router<> {
-    //let db = Db::default();
-
     let service = *Service::new();
 
     let app = Router::new()
