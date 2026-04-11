@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug rust-web-basic (main)",
+            "cargo": {
+                "cwd": "${workspaceFolder:rust-web-basic}",
+                "args": [
+                    "build",
+                    "--bin=rust-web-basic",
+                    "--package=rust-web-basic"
+                ],
+                "filter": {
+                    "name": "rust-web-basic",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder:rust-web-basic}",
+            "sourceLanguages": [
+                "rust"
+            ]
+        }
+    ]
+}
