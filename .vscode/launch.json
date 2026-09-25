@@ -6,7 +6,10 @@
             "request": "launch",
             "name": "Debug rust-web-basic (main)",
             "cargo": {
-                "cwd": "${workspaceFolder:rust-web-basic}",
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "RUSTC": "/Users/ivan/.rustup/toolchains/stable-aarch64-apple-darwin/bin/rustc"
+                },
                 "args": [
                     "build",
                     "--bin=rust-web-basic",
@@ -18,7 +21,7 @@
                 }
             },
             "args": [],
-            "cwd": "${workspaceFolder:rust-web-basic}",
+            "cwd": "${workspaceFolder}",
             "sourceLanguages": [
                 "rust"
             ]
