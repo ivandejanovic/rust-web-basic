@@ -6,5 +6,4 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "prettier.useTabs": true,
-  "lldb.cargo": "/Users/ivan/.rustup/toolchains/stable-aarch64-apple-darwin/bin/cargo"
 }
